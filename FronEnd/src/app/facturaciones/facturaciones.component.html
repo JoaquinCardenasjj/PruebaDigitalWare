@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-8">
+
+            </div>
+            <div class="col-md-4">
+
+                <dx-button text="Agregar facturacion" (onClick)="agregarFacturacion()">
+
+                </dx-button>
+            </div>
+
+        </div>
+        <br>
+        <div class="table-responsive">
+            <dx-data-grid id="dataGrid" [dataSource]="listaFacturaciones" keyExpr="idCompra"
+                [allowColumnReordering]="true" [allowColumnResizing]="true" [columnAutoWidth]="true">
+                <dxo-filter-row [visible]="true"></dxo-filter-row>
+                <dxo-search-panel [visible]="true"></dxo-search-panel>
+                <dxi-column dataField="fechaCompra" dataType="date">
+                </dxi-column>
+                <dxi-column dataField="nombreCliente">
+                </dxi-column>
+                <dxi-column dataField="total">
+                </dxi-column>
+      
+            
+                <dxi-item name="addRowButton" showText="always"></dxi-item>
+                <dxi-item name="exportButton"></dxi-item>
+                <dxi-item name="columnChooserButton"></dxi-item>
+                <dxi-item name="searchPanel"></dxi-item>
+            </dx-data-grid>            
+        </div>
+    </div>
+</div>

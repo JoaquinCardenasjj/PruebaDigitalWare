@@ -1,0 +1,118 @@
+
+
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #C32420 !important;
+}
+.modal {
+  position: fixed;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+.menu {
+  background-color: #23272B !important;
+}
+.dropdown-item:hover {
+  background-color: #C32420 !important;
+color: #ffffff !important;
+}
+.dropdown-item {
+  background-color: #23272B !important;
+color: #ffffff !important;
+}
+form{
+    padding: 3%;
+}
+.red{
+    color:red;
+}
+.left-m{
+ margin-left: 1px;
+}
+.table > tbody > tr:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+  }
+.content-lucta {
+    padding: 3%;
+}
+body {
+    font-size: 78% !important;
+    font-family:Verdana !important;
+}
+input {
+    font-size: 96% !important;
+    font-family:Verdana !important;
+}
+ngb-datepicker {
+    font-size: 96% !important;
+    font-family:Verdana !important;
+}
+select {
+    font-size: 96% !important;
+    font-family:Verdana !important;
+}
+
+.has-danger .form-control{
+  border-color: #d9534f;
+
+}
+
+.has-success .form-control{
+  border-color: #5cb85c;
+
+}
+.solid {border-style: solid;}
+.space { margin-right: 2pc;}
+.center {
+  margin: auto;
+  width: 50%;  
+  padding: 10px;
+}
+.form-control-danger .form-control {
+    padding-right: 2.25rem;
+    background-repeat: no-repeat;
+    background-position: center right .5625rem;
+    -webkit-background-size: 1.125rem 1.125rem;
+    background-size: 1.125rem 1.125rem;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E")
+}
+.zoomL {
+    position: relative;
+    float: right;
+  }
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.widthImage {
+    width:33px;
+    height:31px;
+}
+
+.widthButton {
+    width:34px;
+    height:30px;
+    padding:0px 0px 0px 0px;
+    position:relative;
+    text-align: center;
+}
+
+.col-initial-lucta {
+    position: relative; 
+    min-height: 1px; 
+    padding-right: 0px; 
+    padding-left: 15px;
+}
+
+ngb-timepicker.changeSize .ngb-tp-input-container {
+  width: 2em;
+}
+ngb-timepicker.changeSize .ngb-tp-input{
+  padding: 0;
+  font-size: 10px;
+}
